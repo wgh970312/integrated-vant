@@ -1,3 +1,8 @@
+<script lang="ts" setup>
+import { allowMultipleToast } from 'vant'
+
+allowMultipleToast()
+</script>
 <template>
   <div>
     <NuxtPage />

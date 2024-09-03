@@ -15,9 +15,10 @@ export default defineNuxtConfig({
           manualChunks(id) {
             if (id.includes('node_modules/vue/') || id.includes('node_modules/vue-router/')) {
               return 'vue'
-            } else if (id.includes('node_modules/vant/')) {
-              return 'vant'
-            }
+            } 
+            // else if (id.includes('node_modules/vant/')) {
+            //   return 'vant'
+            // }
           }
         }
       }
